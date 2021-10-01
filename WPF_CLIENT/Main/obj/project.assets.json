@@ -431,11 +431,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\WPF_CLIENT\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\WPF_CLIENT\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\WPF_CLIENT\\Main\\Main.csproj",
+      "projectPath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\WPF_CLIENT\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\WPF_CLIENT\\Main\\obj\\",
+      "outputPath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\WPF_CLIENT\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -452,8 +452,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\WPF_CLIENT\\GrpcServiceProvider\\GrpcServiceProvider.csproj": {
-              "projectPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\WPF_CLIENT\\GrpcServiceProvider\\GrpcServiceProvider.csproj"
+            "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\WPF_CLIENT\\GrpcServiceProvider\\GrpcServiceProvider.csproj": {
+              "projectPath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\WPF_CLIENT\\GrpcServiceProvider\\GrpcServiceProvider.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FgSF9wNPBe9jO9ilPIJzp27qUPV+XMUQgllqjdKAX4gpZ9sb30W/yRsyw/vuhQ99BZvnhZvw6Vswdt0iJE0Ng==",
+  "dgSpecHash": "UMHTGQUUeTms04SO17275RNfs47edvxnYIlnL5U0cugcVvni8K0u6yWUeU+lcvqlKRZVPVVOVTxYBK9I0+SxTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\GRPC_SERVICE\\Main\\Main.csproj",
+  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\GRPC_SERVICE\\Main\\Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\320107743\\.nuget\\packages\\google.protobuf\\3.11.2\\google.protobuf.3.11.2.nupkg.sha512",
     "C:\\Users\\320107743\\.nuget\\packages\\grpc.aspnetcore\\2.27.0\\grpc.aspnetcore.2.27.0.nupkg.sha512",

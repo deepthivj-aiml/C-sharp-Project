@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "juR5HdtfcAhR1pTZn7lWN4HaWJEV5tjLj+WiVxc2P3QI79eyJEOnrRaARc7CVssYuqqNA3z4ZKBykGFUkf/F7w==",
+  "dgSpecHash": "ldtKXNvCl099Vwx5wDWKytdYY7dHV7TviWMPiWzt7sazBKZWh2r9NDCSaKeXot/qwwP9eY6c4EGS8otzQk1Y5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\GRPC_SERVICE\\ServiceLibrary\\ServiceLibrary.csproj",
+  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\GRPC_SERVICE\\ServiceLibrary\\ServiceLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

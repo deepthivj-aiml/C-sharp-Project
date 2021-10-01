@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zkw6XlU69IO2JYCd3FAfL0jVoNMINcAksEho/VBA5WZjFv5t8jqBtKOcELLERh7w0Gvwbplf6pQHqKB1dPyYpA==",
+  "dgSpecHash": "RDVPZAlAmtAz6nZP2AW+uU59oQOOH0lKwjFhL7FIwqRETWW8+8vd2U8kIGYXsoGhPLhoYNfYeEtdEwSoCJK6Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\WPF_CLIENT\\Main\\Main.csproj",
+  "projectFilePath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\WPF_CLIENT\\Main\\Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\320107743\\.nuget\\packages\\google.protobuf\\3.17.3\\google.protobuf.3.17.3.nupkg.sha512",
     "C:\\Users\\320107743\\.nuget\\packages\\grpc.core.api\\2.39.1\\grpc.core.api.2.39.1.nupkg.sha512",

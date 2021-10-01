@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\GRPC_SERVICE\\ServiceLibrary\\ServiceLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\GRPC_SERVICE\\ServiceLibrary\\ServiceLibrary.csproj",
       "projectName": "ServiceLibrary",
-      "projectPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\GRPC_SERVICE\\ServiceLibrary\\ServiceLibrary.csproj",
+      "projectPath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\GRPC_SERVICE\\ServiceLibrary\\ServiceLibrary.csproj",
       "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\GRPC_SERVICE\\ServiceLibrary\\obj\\",
+      "outputPath": "C:\\Users\\320107743\\source\\repos\\CHAT_BOT\\GRPC_SERVICE\\ServiceLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",

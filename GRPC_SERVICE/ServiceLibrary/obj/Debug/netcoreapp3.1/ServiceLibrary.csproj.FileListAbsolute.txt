@@ -18,3 +18,13 @@ C:\Users\320107743\source\repos\Project_Chatbot\GRPC_SERVICE\ServiceLibrary\obj\
 C:\Users\320107743\source\repos\Project_Chatbot\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.csproj.CoreCompileInputs.cache
 C:\Users\320107743\source\repos\Project_Chatbot\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.dll
 C:\Users\320107743\source\repos\Project_Chatbot\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.pdb
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.deps.json
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.dll
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.pdb
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.csproj.AssemblyReference.cache
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.AssemblyInfoInputs.cache
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.AssemblyInfo.cs
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.dll
+C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.pdb
