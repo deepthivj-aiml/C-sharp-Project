@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GrpcServiceProvider\GrpcServiceProvider.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ChatbotService">
+      <HintPath>..\..\..\service\ChatbotService\obj\Debug\netcoreapp3.1\ChatbotService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+ 
+
+</Project>

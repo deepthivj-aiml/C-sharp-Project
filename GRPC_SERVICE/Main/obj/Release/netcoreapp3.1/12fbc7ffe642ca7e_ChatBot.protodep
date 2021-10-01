@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1/ChatBot.cs \
+obj\Release\netcoreapp3.1/ChatBotGrpc.cs: Protos/ChatBot.proto

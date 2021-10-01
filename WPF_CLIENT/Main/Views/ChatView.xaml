@@ -1,0 +1,54 @@
+﻿<Window x:Class="Main.Views.ChatView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Main.Views"
+        xmlns:vm="clr-namespace:Main.ViewModels"
+        mc:Ignorable="d"
+       Title="CHAT BOT" Height="341" Width="512" Background="#FF7CA0FF" ResizeMode="CanResize" >
+    <Window.Resources>
+        <vm:ChatViewModel x:Key="k"/>
+
+    </Window.Resources>
+    <Grid Margin="0,0,-56,-39" DataContext="{Binding Source={StaticResource k}}" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock FontSize="20" FontWeight="Bold" Margin="10,15,91,20" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.HotTrackColorKey}}"/>
+            </TextBlock.Foreground>
+            FIND YOUR PATIENT MONITOR HERE!!!!
+        </TextBlock>
+        <ListView Grid.Row="1" Background="Orange"   ItemsSource="{Binding Messages}" Margin="38,59,142,119" Grid.RowSpan="2" Grid.ColumnSpan="2"  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" >
+                        <TextBlock TextWrapping="Wrap" FontSize="18" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Text="{Binding Name}"  Foreground="{Binding LineColour}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label Grid.Row="2"  Visibility= "Visible" HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Message:" Height="43"  Name="label5" RenderTransformOrigin="0.567,-0.218" Margin="20,0,0,58" Width="88" >
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.821"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.194"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox Grid.Row="2" Visibility= "Visible" VerticalAlignment="Bottom"  x:Name="txtFields" Text="{Binding  TextProperty,Mode=TwoWay}" RenderTransformOrigin="-0.106,-0.805" Margin="81,0,195,67" Height="30" Grid.ColumnSpan="2"/>
+        <Button  Grid.Row="2"  HorizontalAlignment="Right"  VerticalAlignment="Bottom" Command="{Binding Source= {StaticResource k}, Path=SubmitCommand}" Visibility= "Visible" Content="Send" RenderTransformOrigin="0.674,0.912" Margin="0,0,142,67"  Height="30" Width="46" Grid.Column="1"  />
+        <Button  Grid.Row="2"  HorizontalAlignment="Right"  VerticalAlignment="Bottom" Command="{Binding Source= {StaticResource k}, Path=ClearChatCommand}" Visibility= "Visible" Content="Clear Chat" RenderTransformOrigin="0.674,0.912"   Height="30" Width="64" Grid.Column="1" Margin="0,0,73,67"  />
+    </Grid>
+</Window>

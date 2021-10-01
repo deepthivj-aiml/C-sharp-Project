@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\GrpcServiceProvider\\GrpcServiceProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\GrpcServiceProvider\\GrpcServiceProvider.csproj",
+        "projectName": "GrpcServiceProvider",
+        "projectPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\GrpcServiceProvider\\GrpcServiceProvider.csproj",
+        "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\GrpcServiceProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.17.3, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.39.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.40.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal.csproj",
+        "projectName": "wpfCHATBOTclientFinal",
+        "projectPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal.csproj",
+        "packagesPath": "C:\\Users\\320107743\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\wpfCHATBOTclientFinal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\320107743\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\GrpcServiceProvider\\GrpcServiceProvider.csproj": {
+                "projectPath": "C:\\Users\\320107743\\source\\repos\\Project_Chatbot\\client\\wpfCHATBOTclientFinal\\GrpcServiceProvider\\GrpcServiceProvider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Caliburn.Micro": {
+              "target": "Package",
+              "version": "[4.0.173, )"
+            },
+            "Caliburn.Micro.Core": {
+              "target": "Package",
+              "version": "[4.0.173, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

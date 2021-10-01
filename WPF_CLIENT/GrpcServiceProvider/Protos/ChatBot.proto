@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "ChatbotService";
+
+service chatbot
+{
+rpc getProductName(ProductNameRequest) returns ( Productname);
+}
+message ProductNameRequest{
+		string TouchScreen = 1;
+		string WearableMonitor = 2;
+		string AlarmManagement = 3;
+		float  ScreenSize = 4;
+}
+message Productname
+{
+	string productName=1;
+}
