@@ -122,3 +122,34 @@ C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3
 C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.dll
 C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.pdb
 C:\Users\320107743\source\repos\CHAT_BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Main.exe
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Main.deps.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.dev.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Main.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Main.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Grpc.Net.ClientFactory.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\ServiceLibrary.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\bin\Debug\netcoreapp3.1\ServiceLibrary.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.csproj.AssemblyReference.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfoInputs.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfo.cs
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.csproj.CoreCompileInputs.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\staticwebassets\Main.StaticWebAssets.Manifest.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\staticwebassets\Main.StaticWebAssets.xml
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\scopedcss\bundle\Main.styles.css
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.RazorTargetAssemblyInfo.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.csproj.CopyComplete
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\GRPC_SERVICE\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache

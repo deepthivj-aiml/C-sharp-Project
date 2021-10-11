@@ -12,8 +12,17 @@ namespace Main {
   {
     static readonly string __ServiceName = "chatbot";
 
+    static readonly grpc::Marshaller<global::Main.ProductQuestionRequest> __Marshaller_ProductQuestionRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Main.ProductQuestionRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Main.ProductMCQQuestion> __Marshaller_ProductMCQQuestion = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Main.ProductMCQQuestion.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Main.ProductNameRequest> __Marshaller_ProductNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Main.ProductNameRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Main.Productname> __Marshaller_Productname = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Main.Productname.Parser.ParseFrom);
+
+    static readonly grpc::Method<global::Main.ProductQuestionRequest, global::Main.ProductMCQQuestion> __Method_getProductQuestion = new grpc::Method<global::Main.ProductQuestionRequest, global::Main.ProductMCQQuestion>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "getProductQuestion",
+        __Marshaller_ProductQuestionRequest,
+        __Marshaller_ProductMCQQuestion);
 
     static readonly grpc::Method<global::Main.ProductNameRequest, global::Main.Productname> __Method_getProductName = new grpc::Method<global::Main.ProductNameRequest, global::Main.Productname>(
         grpc::MethodType.Unary,
@@ -32,6 +41,11 @@ namespace Main {
     [grpc::BindServiceMethod(typeof(chatbot), "BindService")]
     public abstract partial class chatbotBase
     {
+      public virtual global::System.Threading.Tasks.Task<global::Main.ProductMCQQuestion> getProductQuestion(global::Main.ProductQuestionRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
       public virtual global::System.Threading.Tasks.Task<global::Main.Productname> getProductName(global::Main.ProductNameRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -44,6 +58,7 @@ namespace Main {
     public static grpc::ServerServiceDefinition BindService(chatbotBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_getProductQuestion, serviceImpl.getProductQuestion)
           .AddMethod(__Method_getProductName, serviceImpl.getProductName).Build();
     }
 
@@ -53,6 +68,7 @@ namespace Main {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, chatbotBase serviceImpl)
     {
+      serviceBinder.AddMethod(__Method_getProductQuestion, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Main.ProductQuestionRequest, global::Main.ProductMCQQuestion>(serviceImpl.getProductQuestion));
       serviceBinder.AddMethod(__Method_getProductName, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Main.ProductNameRequest, global::Main.Productname>(serviceImpl.getProductName));
     }
 

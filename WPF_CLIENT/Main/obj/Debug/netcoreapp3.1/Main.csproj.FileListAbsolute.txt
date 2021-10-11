@@ -102,3 +102,37 @@ C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\Main\obj\Debug\netcor
 C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.dll
 C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.pdb
 C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Main.exe
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Main.deps.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.dev.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Main.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Main.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\GrpcServiceProvider.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\bin\Debug\netcoreapp3.1\GrpcServiceProvider.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.csproj.AssemblyReference.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Views\ChatView.g.cs
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main_MarkupCompile.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main_MarkupCompile.lref
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Views\ChatView.baml
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.g.resources
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfoInputs.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfo.cs
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.csproj.CoreCompileInputs.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.csproj.CopyComplete
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache

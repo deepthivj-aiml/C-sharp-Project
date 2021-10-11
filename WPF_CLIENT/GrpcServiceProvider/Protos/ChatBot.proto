@@ -4,9 +4,15 @@ option csharp_namespace = "ChatbotService";
 
 service chatbot
 {
+rpc getProductQuestion(ProductQuestionRequest) returns ( ProductMCQQuestion );
 rpc getProductName(ProductNameRequest) returns ( Productname);
 }
-message ProductNameRequest{
+message ProductQuestionRequest
+{	
+		int32 questionId=1;
+}
+message ProductNameRequest
+{	
 		string TouchScreen = 1;
 		string WearableMonitor = 2;
 		string AlarmManagement = 3;
@@ -14,5 +20,12 @@ message ProductNameRequest{
 }
 message Productname
 {
-	string productName=1;
+	string productName=1;	
+}
+message ProductMCQQuestion
+{
+	int32 QuestionId=1;
+	string QuestionText=2;
+	repeated int32 optionId=3;
+	repeated string optionText=4;
 }

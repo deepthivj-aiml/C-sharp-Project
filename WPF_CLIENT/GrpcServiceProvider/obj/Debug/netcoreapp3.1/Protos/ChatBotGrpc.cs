@@ -46,9 +46,21 @@ namespace ChatbotService {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::ChatbotService.ProductQuestionRequest> __Marshaller_ProductQuestionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::ChatbotService.ProductQuestionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::ChatbotService.ProductMCQQuestion> __Marshaller_ProductMCQQuestion = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::ChatbotService.ProductMCQQuestion.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::ChatbotService.ProductNameRequest> __Marshaller_ProductNameRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::ChatbotService.ProductNameRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::ChatbotService.Productname> __Marshaller_Productname = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::ChatbotService.Productname.Parser));
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::ChatbotService.ProductQuestionRequest, global::ChatbotService.ProductMCQQuestion> __Method_getProductQuestion = new grpc::Method<global::ChatbotService.ProductQuestionRequest, global::ChatbotService.ProductMCQQuestion>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "getProductQuestion",
+        __Marshaller_ProductQuestionRequest,
+        __Marshaller_ProductMCQQuestion);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::ChatbotService.ProductNameRequest, global::ChatbotService.Productname> __Method_getProductName = new grpc::Method<global::ChatbotService.ProductNameRequest, global::ChatbotService.Productname>(
@@ -91,6 +103,26 @@ namespace ChatbotService {
       {
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::ChatbotService.ProductMCQQuestion getProductQuestion(global::ChatbotService.ProductQuestionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return getProductQuestion(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::ChatbotService.ProductMCQQuestion getProductQuestion(global::ChatbotService.ProductQuestionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_getProductQuestion, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::ChatbotService.ProductMCQQuestion> getProductQuestionAsync(global::ChatbotService.ProductQuestionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return getProductQuestionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::ChatbotService.ProductMCQQuestion> getProductQuestionAsync(global::ChatbotService.ProductQuestionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_getProductQuestion, null, options, request);
+      }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::ChatbotService.Productname getProductName(global::ChatbotService.ProductNameRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {

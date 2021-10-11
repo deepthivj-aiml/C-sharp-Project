@@ -8,5 +8,17 @@ namespace Main.Models
     {
         public  List<QuestionOption> Options { get; set; }
         public QuestionOption Answer { get; set; }
+        public MCQQuestion(MCQQuestion m)
+        {
+            this.QuestionId = m.QuestionId;
+            this.QuestionText = m.QuestionText;
+            this.Options = m.Options;
+            this.Answer = m.Answer;
+        }
+        public MCQQuestion()
+        {
+
+        }
     }
+   
 }

@@ -24,23 +24,159 @@ namespace Main {
     static ChatBotReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChRQcm90b3MvQ2hhdEJvdC5wcm90byJvChJQcm9kdWN0TmFtZVJlcXVlc3QS",
-            "EwoLVG91Y2hTY3JlZW4YASABKAkSFwoPV2VhcmFibGVNb25pdG9yGAIgASgJ",
-            "EhcKD0FsYXJtTWFuYWdlbWVudBgDIAEoCRISCgpTY3JlZW5TaXplGAQgASgC",
-            "IiIKC1Byb2R1Y3RuYW1lEhMKC3Byb2R1Y3ROYW1lGAEgASgJMj4KB2NoYXRi",
-            "b3QSMwoOZ2V0UHJvZHVjdE5hbWUSEy5Qcm9kdWN0TmFtZVJlcXVlc3QaDC5Q",
-            "cm9kdWN0bmFtZUIHqgIETWFpbmIGcHJvdG8z"));
+            "ChRQcm90b3MvQ2hhdEJvdC5wcm90byIsChZQcm9kdWN0UXVlc3Rpb25SZXF1",
+            "ZXN0EhIKCnF1ZXN0aW9uSWQYASABKAUibwoSUHJvZHVjdE5hbWVSZXF1ZXN0",
+            "EhMKC1RvdWNoU2NyZWVuGAEgASgJEhcKD1dlYXJhYmxlTW9uaXRvchgCIAEo",
+            "CRIXCg9BbGFybU1hbmFnZW1lbnQYAyABKAkSEgoKU2NyZWVuU2l6ZRgEIAEo",
+            "AiIiCgtQcm9kdWN0bmFtZRITCgtwcm9kdWN0TmFtZRgBIAEoCSJkChJQcm9k",
+            "dWN0TUNRUXVlc3Rpb24SEgoKUXVlc3Rpb25JZBgBIAEoBRIUCgxRdWVzdGlv",
+            "blRleHQYAiABKAkSEAoIb3B0aW9uSWQYAyADKAUSEgoKb3B0aW9uVGV4dBgE",
+            "IAMoCTKCAQoHY2hhdGJvdBJCChJnZXRQcm9kdWN0UXVlc3Rpb24SFy5Qcm9k",
+            "dWN0UXVlc3Rpb25SZXF1ZXN0GhMuUHJvZHVjdE1DUVF1ZXN0aW9uEjMKDmdl",
+            "dFByb2R1Y3ROYW1lEhMuUHJvZHVjdE5hbWVSZXF1ZXN0GgwuUHJvZHVjdG5h",
+            "bWVCB6oCBE1haW5iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Main.ProductQuestionRequest), global::Main.ProductQuestionRequest.Parser, new[]{ "QuestionId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Main.ProductNameRequest), global::Main.ProductNameRequest.Parser, new[]{ "TouchScreen", "WearableMonitor", "AlarmManagement", "ScreenSize" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Main.Productname), global::Main.Productname.Parser, new[]{ "ProductName" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Main.Productname), global::Main.Productname.Parser, new[]{ "ProductName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Main.ProductMCQQuestion), global::Main.ProductMCQQuestion.Parser, new[]{ "QuestionId", "QuestionText", "OptionId", "OptionText" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
+  public sealed partial class ProductQuestionRequest : pb::IMessage<ProductQuestionRequest> {
+    private static readonly pb::MessageParser<ProductQuestionRequest> _parser = new pb::MessageParser<ProductQuestionRequest>(() => new ProductQuestionRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ProductQuestionRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Main.ChatBotReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ProductQuestionRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ProductQuestionRequest(ProductQuestionRequest other) : this() {
+      questionId_ = other.questionId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ProductQuestionRequest Clone() {
+      return new ProductQuestionRequest(this);
+    }
+
+    /// <summary>Field number for the "questionId" field.</summary>
+    public const int QuestionIdFieldNumber = 1;
+    private int questionId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int QuestionId {
+      get { return questionId_; }
+      set {
+        questionId_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ProductQuestionRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ProductQuestionRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (QuestionId != other.QuestionId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (QuestionId != 0) hash ^= QuestionId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (QuestionId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(QuestionId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (QuestionId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(QuestionId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ProductQuestionRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.QuestionId != 0) {
+        QuestionId = other.QuestionId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            QuestionId = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class ProductNameRequest : pb::IMessage<ProductNameRequest> {
     private static readonly pb::MessageParser<ProductNameRequest> _parser = new pb::MessageParser<ProductNameRequest>(() => new ProductNameRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -49,7 +185,7 @@ namespace Main {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Main.ChatBotReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Main.ChatBotReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -262,7 +398,7 @@ namespace Main {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Main.ChatBotReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Main.ChatBotReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -375,6 +511,204 @@ namespace Main {
             break;
           case 10: {
             ProductName = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class ProductMCQQuestion : pb::IMessage<ProductMCQQuestion> {
+    private static readonly pb::MessageParser<ProductMCQQuestion> _parser = new pb::MessageParser<ProductMCQQuestion>(() => new ProductMCQQuestion());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ProductMCQQuestion> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Main.ChatBotReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ProductMCQQuestion() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ProductMCQQuestion(ProductMCQQuestion other) : this() {
+      questionId_ = other.questionId_;
+      questionText_ = other.questionText_;
+      optionId_ = other.optionId_.Clone();
+      optionText_ = other.optionText_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ProductMCQQuestion Clone() {
+      return new ProductMCQQuestion(this);
+    }
+
+    /// <summary>Field number for the "QuestionId" field.</summary>
+    public const int QuestionIdFieldNumber = 1;
+    private int questionId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int QuestionId {
+      get { return questionId_; }
+      set {
+        questionId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "QuestionText" field.</summary>
+    public const int QuestionTextFieldNumber = 2;
+    private string questionText_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string QuestionText {
+      get { return questionText_; }
+      set {
+        questionText_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "optionId" field.</summary>
+    public const int OptionIdFieldNumber = 3;
+    private static readonly pb::FieldCodec<int> _repeated_optionId_codec
+        = pb::FieldCodec.ForInt32(26);
+    private readonly pbc::RepeatedField<int> optionId_ = new pbc::RepeatedField<int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<int> OptionId {
+      get { return optionId_; }
+    }
+
+    /// <summary>Field number for the "optionText" field.</summary>
+    public const int OptionTextFieldNumber = 4;
+    private static readonly pb::FieldCodec<string> _repeated_optionText_codec
+        = pb::FieldCodec.ForString(34);
+    private readonly pbc::RepeatedField<string> optionText_ = new pbc::RepeatedField<string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> OptionText {
+      get { return optionText_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ProductMCQQuestion);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ProductMCQQuestion other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (QuestionId != other.QuestionId) return false;
+      if (QuestionText != other.QuestionText) return false;
+      if(!optionId_.Equals(other.optionId_)) return false;
+      if(!optionText_.Equals(other.optionText_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (QuestionId != 0) hash ^= QuestionId.GetHashCode();
+      if (QuestionText.Length != 0) hash ^= QuestionText.GetHashCode();
+      hash ^= optionId_.GetHashCode();
+      hash ^= optionText_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (QuestionId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(QuestionId);
+      }
+      if (QuestionText.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(QuestionText);
+      }
+      optionId_.WriteTo(output, _repeated_optionId_codec);
+      optionText_.WriteTo(output, _repeated_optionText_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (QuestionId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(QuestionId);
+      }
+      if (QuestionText.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(QuestionText);
+      }
+      size += optionId_.CalculateSize(_repeated_optionId_codec);
+      size += optionText_.CalculateSize(_repeated_optionText_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ProductMCQQuestion other) {
+      if (other == null) {
+        return;
+      }
+      if (other.QuestionId != 0) {
+        QuestionId = other.QuestionId;
+      }
+      if (other.QuestionText.Length != 0) {
+        QuestionText = other.QuestionText;
+      }
+      optionId_.Add(other.optionId_);
+      optionText_.Add(other.optionText_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            QuestionId = input.ReadInt32();
+            break;
+          }
+          case 18: {
+            QuestionText = input.ReadString();
+            break;
+          }
+          case 26:
+          case 24: {
+            optionId_.AddEntriesFrom(input, _repeated_optionId_codec);
+            break;
+          }
+          case 34: {
+            optionText_.AddEntriesFrom(input, _repeated_optionText_codec);
             break;
           }
         }

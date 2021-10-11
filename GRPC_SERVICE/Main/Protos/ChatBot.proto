@@ -3,7 +3,12 @@ option csharp_namespace = "Main";
 
 service chatbot
 {
+rpc getProductQuestion(ProductQuestionRequest) returns ( ProductMCQQuestion );
 rpc getProductName(ProductNameRequest) returns ( Productname);
+}
+message ProductQuestionRequest
+{	
+		int32 questionId=1;
 }
 message ProductNameRequest
 {	
@@ -16,3 +21,12 @@ message Productname
 {
 	string productName=1;	
 }
+message ProductMCQQuestion
+{
+	int32 QuestionId=1;
+	string QuestionText=2;
+	repeated int32 optionId=3;
+	repeated string optionText=4;
+}
+
+

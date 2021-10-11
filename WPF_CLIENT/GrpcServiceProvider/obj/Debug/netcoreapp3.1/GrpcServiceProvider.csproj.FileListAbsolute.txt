@@ -34,3 +34,13 @@ C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\GrpcServiceProvider\o
 C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.csproj.CoreCompileInputs.cache
 C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.dll
 C:\Users\320107743\source\repos\Project_Chatbot\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\bin\Debug\netcoreapp3.1\GrpcServiceProvider.deps.json
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\bin\Debug\netcoreapp3.1\GrpcServiceProvider.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\bin\Debug\netcoreapp3.1\GrpcServiceProvider.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.AssemblyInfoInputs.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.AssemblyInfo.cs
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.csproj.CoreCompileInputs.cache
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.dll
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.pdb
+C:\Users\320107743\OneDrive - Philips\Documents\CHAT-BOT\WPF_CLIENT\GrpcServiceProvider\obj\Debug\netcoreapp3.1\GrpcServiceProvider.csproj.AssemblyReference.cache

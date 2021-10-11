@@ -11,25 +11,25 @@ namespace GrpcServiceProvider
 {
     public class GrpcServiceProviderClass
     {
-        public string ProductSuggested {get; set;}
-        internal string TouchScreen { get; set; }
-        internal string WearableMonitor { get; set; }
-        internal string AlarmManagement { get; set; }
-        internal float ScreenSize { get; set; }
-        public GrpcServiceProviderClass(string touchScreen, string wearableMonitor, string alarmManagement, float screenSize)
+        public GrpcServiceProviderClass()
         {
-            this.TouchScreen = touchScreen;
-            this.WearableMonitor = wearableMonitor;
-            this.AlarmManagement = alarmManagement;
-            this.ScreenSize = screenSize;
         }
-        public async Task GrpcServiceProviderFN()
-        {   
-            var channel = GrpcChannel.ForAddress("https://localhost:5001");     
-            var input1 = new ProductNameRequest { TouchScreen = TouchScreen, WearableMonitor = WearableMonitor, AlarmManagement = AlarmManagement, ScreenSize = ScreenSize };
-            var productClient = new chatbot.chatbotClient(channel);
-            var productName = await productClient.getProductNameAsync(input1);
-            this.ProductSuggested = productName.ProductName;
+        public async Task<String> GrpcServiceGetProductName(string TouchScreen, string WearableMonitor, string AlarmManagement, float ScreenSize)
+        {
+            var channel = GrpcChannel.ForAddress("https://localhost:5001");
+
+            var inputFeatures = new ProductNameRequest { TouchScreen = TouchScreen, WearableMonitor = WearableMonitor, AlarmManagement = AlarmManagement, ScreenSize = ScreenSize };
+             var productClient = new chatbot.chatbotClient(channel);
+            var productName = await productClient.getProductNameAsync(inputFeatures);
+            return (productName.ProductName);
+        }
+        public async Task<ProductMCQQuestion> GrpcServiceGetProductMCQQuestion(int questionId)
+        {
+             var channel = GrpcChannel.ForAddress("https://localhost:5001");
+             var productClient = new chatbot.chatbotClient(channel);
+             var inputQuestionId = new ProductQuestionRequest { QuestionId = questionId };
+             var productMCQQuestionMessage = await productClient.getProductQuestionAsync(inputQuestionId);
+             return productMCQQuestionMessage;      
         }
     }
 }
